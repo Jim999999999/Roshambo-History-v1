@@ -9,7 +9,7 @@
 import UIKit
 import Foundation
 
-class HistoryViewController: UIViewController, UITableViewDataSource {
+class HistoryViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var allHistory: [String: String] = [:]
     
